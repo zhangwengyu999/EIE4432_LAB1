@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>21098431d_Drink Ordering Form</title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+    <body>
+        <header><h1>Drink Ordering Form</h1></header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="currentPage" ><a href="./order.html">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="#" method="POST">
+                <div class="name-input">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select id="drink" name="drink">
+                        <option value="Bubble Milktea" selected>Bubble Milktea</option>
+                        <option value="Iced Latte">Iced Latte</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                    <input type="radio" id="small" name="size" value="Small" checked> Small
+                    <input type="radio" id="medium" name="size" value="Medium"> Medium
+                    <input type="radio" id="large" name="size" value="Large"> Large
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order">
+                </div>
+            </form>
+        </main>
+    </body>
+    <footer>
+        <p>© 21098431d ZHANG Wengyu - EIE4432 Lab 1 Project</p>
+    </footer>
+</html>
